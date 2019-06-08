@@ -11,6 +11,4 @@ import { Component } from '@angular/core';
     </style>
   `
 })
-export class FirstComponent {
-
-}
+export class FirstComponent {}

@@ -5,16 +5,16 @@ import { Component } from '@angular/core';
   template: `
     <div class="outline-box">Second Component</div>
   `,
-  styles: [`
-    .outline-box {
-      border: 3px solid green;
-    }
-    :host {
-      display: block;
-      border: 3px solid #ccc;
-    }
-  `]
+  styles: [
+    `
+      .outline-box {
+        border: 3px solid green;
+      }
+      :host {
+        display: block;
+        border: 3px solid #ccc;
+      }
+    `
+  ]
 })
-export class SecondComponent {
-
-}
+export class SecondComponent {}

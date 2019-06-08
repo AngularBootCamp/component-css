@@ -16,4 +16,4 @@ import { ThirdComponent } from './third.component';
   imports: [BrowserModule],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

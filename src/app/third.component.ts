@@ -6,10 +6,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
     <div class="outline-box">Third Component</div>
   `,
   styleUrls: ['./third.component.css'],
-  encapsulation: ViewEncapsulation.Emulated  // this is the default
+  encapsulation: ViewEncapsulation.Emulated // this is the default
   // encapsulation: ViewEncapsulation.None
   // encapsulation: ViewEncapsulation.Native // Look in global.css at shadow selector
 })
-export class ThirdComponent {
-
-}
+export class ThirdComponent {}
