@@ -2,9 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-second',
-  template: `
-    <div class="outline-box">Second Component</div>
-  `,
+  template: ` <div class="outline-box">Second Component</div> `,
   styles: [
     `
       .outline-box {
