@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 
+import { FirstComponent } from './first.component';
+import { SecondComponent } from './second.component';
+import { ThirdComponent } from './third.component';
+
 @Component({
   selector: 'app-root',
   template: `
@@ -10,6 +14,8 @@ import { Component } from '@angular/core';
       <app-second></app-second>
       <app-third></app-third>
     </div>
-  `
+  `,
+  standalone: true,
+  imports: [FirstComponent, SecondComponent, ThirdComponent]
 })
 export class AppComponent {}

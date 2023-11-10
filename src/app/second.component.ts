@@ -15,6 +15,7 @@ import { Component } from '@angular/core';
         border: 3px solid #ccc;
       }
     `
-  ]
+  ],
+  standalone: true
 })
 export class SecondComponent {}

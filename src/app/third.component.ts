@@ -6,7 +6,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
     <div class="outline-box">Third Component</div>
   `,
   styleUrls: ['./third.component.scss'],
-  encapsulation: ViewEncapsulation.Emulated // this is the default
+  encapsulation: ViewEncapsulation.Emulated, // this is the default
   // encapsulation: ViewEncapsulation.None
+  standalone: true
 })
 export class ThirdComponent {}

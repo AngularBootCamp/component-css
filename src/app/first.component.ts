@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
         border: 3px solid blue;
       }
     </style>
-  `
+  `,
+  standalone: true
 })
 export class FirstComponent {}
