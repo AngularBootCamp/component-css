@@ -5,8 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <div class="outline-box">Second Component</div>
   `,
-  styles: [
-    `
+  styles: `
       .outline-box {
         border: 3px solid green;
       }
@@ -14,8 +13,7 @@ import { Component } from '@angular/core';
         display: block;
         border: 3px solid #ccc;
       }
-    `
-  ],
+    `,
   standalone: true
 })
 export class SecondComponent {}
